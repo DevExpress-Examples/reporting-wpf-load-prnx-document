@@ -35,7 +35,7 @@ private void button1_Click(object sender, System.EventArgs e) {
 ```
 documentPreview.DocumentSource = @"...\Invoice.prnx";
 ```
-![Demo](~/DocumentPreview.jpg)
+
 
 
 
