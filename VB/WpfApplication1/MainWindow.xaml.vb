@@ -11,13 +11,13 @@ Namespace WpfApplication1
         Inherits Window
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
         End Sub
 
         Private Sub Window_Loaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
             Dim sl As SimpleLink = New SimpleLink()
             sl.PrintingSystem.LoadDocument("CustomerOrder.prnx")
-            documentPreview1.Model = New LinkPreviewModel(sl)
+            Me.documentPreview1.Model = New LinkPreviewModel(sl)
         End Sub
     End Class
 End Namespace
